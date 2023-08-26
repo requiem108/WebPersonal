@@ -1,0 +1,43 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(355deg, rgba(252,229,221,1) 0%, rgba(186,221,214,1) 50%, rgba(98,191,189,1) 76%, rgba(75,187,242,1) 95%);
+}
+
+header {
+    background-color: #fce5dd;
+    padding: 1em;
+}
+
+nav a {
+    margin: 0 1em;
+    text-decoration: none;
+    color: #4bbbf2;
+}
+
+section {
+    padding: 2em;
+}
+
+.card {
+    border: 2px solid #62bfbd;
+    padding: 1em;
+    margin: 1em 0;
+}
+
+.card img {
+    max-width: 100%;
+    border-bottom: 2px solid #62bfbd;
+}
+
+.card h3 {
+    margin-top: 0.5em;
+}
+
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 0.5em 0;
+    }
+}
